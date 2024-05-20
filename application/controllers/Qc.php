@@ -38,8 +38,7 @@ class Qc extends CI_Controller {
         $data['title'] = 'Loading Product';
         $this->load->view('dashboard/header',$data);
         $this->load->view('dashboard/side',$data);
-        $this->load->view('QC/main',$data);
-        $this->load->view('dashboard/main', $data); // SHOW DI DASHBOARD
+        $this->load->view('QC/main',$data);  // SHOW DI DASHBOARD
         $this->load->view('dashboard/footer');
     }
 
