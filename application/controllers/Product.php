@@ -36,6 +36,7 @@ class Product extends CI_Controller {
         $data['product'] = $this->Models->GetAllProduct();
         $data['technology'] = $this->Models->getAll('technology');
         $data['category'] = $this->Models->getAll('category');
+        $data['total_products'] = $this->Models->getTotalProducts();
         $data['title'] = 'Product';
         $this->load->view('dashboard/header',$data);
         $this->load->view('dashboard/side',$data);

@@ -180,6 +180,21 @@ class Models extends CI_Model {
     }
 
 
+    public function getTotalProducts(){
+        $this->db->from('product');
+        return $this->db->count_all_results();
+    }
+    
+    public function getTotalLoadProducts()
+    {
+    $this->db->from('qc');
+    return $this->db->count_all_results();
+    }
+        public function countUsers() {
+        $query = $this->db->count_all('user');
+        return $query;
+    }
+
 
     //Model Lama
     public function itemOneMonth() {

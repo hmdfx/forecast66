@@ -64,11 +64,11 @@
           <p style="color: red; font-style: italic; margin-top: 10px"><?php echo $this->session->flashdata('pesan'); ?></p>
         </div>
       </form>
-      <div class="register" style="text-align: center">
+     <!-- <div class="register" style="text-align: center">
         <a href="<?= base_url('Login/register')?>">Create an Account</a>
       </div>
-      </div>
-    <p class="text-light-blue text-center">Copyright @ 2020 All Right Reserved</p>
+      </div> !--> 
+    <p class="text-light-blue text-center">Copyright @ 2024 All Right Reserved</p>
 
 
   </div>
