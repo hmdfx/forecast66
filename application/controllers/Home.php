@@ -427,7 +427,7 @@ class Home extends CI_Controller {
         $pdf->AddPage();
 
          // Image URL
-         $imageUrl = 'https://portal.podomorouniversity.ac.id/assets/icon/logo_pu.png'; // Update with your image URL
+         //$imageUrl = 'https://portal.podomorouniversity.ac.id/assets/icon/logo_pu.png'; // Update with your image URL
 
          // Add image to PDF (x, y, width, height)
         $pdf->Image($imageUrl, 150, 7.5, 50, 0);
